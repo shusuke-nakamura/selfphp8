@@ -1,5 +1,9 @@
 {
     "require": {
-        "guzzlehttp/guzzle": "~7.3.0"
+        "guzzlehttp/guzzle": "~7.3.0",
+        "ezyang/htmlpurifier": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
