@@ -1,5 +1,5 @@
 <?php
-class Figure
+abstract class Figure
 {
     protected float $width;
     protected float $height;
@@ -10,8 +10,5 @@ class Figure
         $this->height = $height;
     }
 
-    public function getArea(): float
-    {
-        return 0;
-    }
+    protected abstract function getArea(): float;
 }
